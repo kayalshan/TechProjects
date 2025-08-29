@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: webflux-demo
+
+# Dummy DB credentials (replace with your own if connecting to real DB)
+db:
+  url: jdbc:postgresql://localhost:5432/demo
+  username: dummy_user   # 👉 Replace with your DB username
+  password: dummy_pass   # 👉 Replace with your DB password
