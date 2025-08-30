@@ -116,5 +116,8 @@ Or run in CLI:
 
 jmeter -n -t load-test.jmx -l results.jtl -e -o report/
 
+results.jtl → raw logs
+
+report/ → HTML performance report
 
 ✅ Observe low response time & low memory usage compared to blocking MVC.
